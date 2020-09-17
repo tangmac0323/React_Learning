@@ -1,6 +1,6 @@
 const reducer = function(accumulator, currentValue, currentIndex, array) {
-    console.log("current index: " + currentIndex);
-    return accumulator + currentIndex;
+    console.log("current index: " + currentIndex + "\t current value: " + currentValue);
+    return accumulator + currentValue;
 };
 
 
