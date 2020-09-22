@@ -4,17 +4,19 @@ import { increment, decrement } from '../../app/action/store_action';
 import { connect } from 'react-redux';
 
 
+
 class HeaderNavBar extends React.Component {
 
-    incrementOnClick() {
+    incrementOnClick = () => {
         this.props.increment();
+        //console.log(this.props);
     }
 
-    decrementOnClick() {
+    decrementOnClick = () => {
         this.props.decrement();
     }
 
-    render() {
+    render = () => {
         return (
             <div>
                 <button onClick={this.incrementOnClick}>
