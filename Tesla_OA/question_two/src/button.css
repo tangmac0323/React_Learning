@@ -1,0 +1,25 @@
+.container {
+    
+}
+
+.outter {
+    border-radius: 25px;
+    background: green;
+}
+
+.inner {
+    border-radius: 25px;
+    background: red;
+}
+
+.content {
+
+}
+
+.content::before {
+    
+}
+
+.content::after {
+
+}
